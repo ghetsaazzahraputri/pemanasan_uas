@@ -1,22 +1,107 @@
-.App {
-  text-align: center;
+.wrapper{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.flex-wrapper{
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: right;
+  align-items: right;
+  height: 319px;
+  z-index: 100;
+  position: relative;
+  display: flex;
 }
 
-.App-link {
-  color: #09d3ac;
+.gambar{
+  background-image: url("../src/storage/image1.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
+
+.flex-judul{
+  display: flex;
+  flex: 3;
+  margin-left: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+.judul{
+  display: flex;
+  margin-top: 50px;
+  font-family:'Barlow', sans-serif;;
+}
+.sekolah{
+  line-height: 110px;
+  color: white;
+  font-weight: 800;
+  font-size: 60px;
+}
+.unggul{
+  font-size: 65px;
+  margin-left: 10px;
+  color: white;
+  line-height: 108px;
+  background-color:#FF6E40;
+}
+
+.konten{
+  font-weight: 400;
+  margin-left: 250px;
+  justify-content: center;
+  align-items: center;
+}
+.konten p{
+  font-size: 25px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.flex-button{
+  margin-left: 250px;
+  margin-top: 50px;
+  border: 3px solid #FF6E40;
+  width: 20%;
+  border-radius: 5px;
+}
+.button{
+  text-align: center;
+  font-weight: bold;
+}
+.text{
+  font-size: 15px;
+  color: #FF6E40;
+}
+
+.opacity{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.right{
+  color: white;
+position: absolute;
+width: 72px;
+height: 72px;
+left: 90%;
+top: 320px;
+font-size: 50px;
+}
+.left{
+  color: white;
+position: absolute;
+width: 72px;
+height: 72px;
+right: 90%;
+top: 320px;
+font-size: 50px;
+}
+
